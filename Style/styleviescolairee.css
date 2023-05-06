@@ -1,0 +1,215 @@
+
+
+.logo{
+    
+
+    width: 50px;
+  
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .cc-navbar{
+  background-color: orange;
+  font-family: 'Merriweather', serif;
+  box-shadow: 1px 1px 3px rgba(255, 146, 3, 0.54);
+  z-index: 99;
+  }
+  
+  #nav li a{
+  color: white;
+  font-size: 15px;
+  
+  font-family: monospace;
+  font-weight: bold;
+  transition: .5s;
+  }
+  #nav li a#connecter{
+  color: green;
+  }
+  #nav li a#connecter:hover{
+  color: rgb(0, 0, 0);
+  }
+  #nav li a#connecter:hover{
+  background-color:rgb(219, 154, 32);
+  }
+  
+  
+  #nav li a:hover,a:active{
+  color: rgb(26, 221, 235);
+  transition: .5s;
+  }
+  
+  .active{
+    color: rgb(26, 221, 235) !important;
+  }
+  
+  
+  .cc-navbar .nav-link {
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+  }
+  
+  .cc-navbar .nav-link:hover {
+  padding-bottom: 20px;
+  border-bottom-color: var(--bs-teal);
+  }
+  
+  .banner,
+  .order-form {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/agbor.jpeg') center center fixed no-repeat;
+  background-size: cover;
+  height: 800px;
+  }
+  
+  .order-form {
+  height: 500px;
+  }
+  
+  .banner .banner-desc h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #fff;
+  }
+  
+  .cc-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/mentions.png') center center fixed no-repeat;
+  background-size: cover;
+  height: 1200px;
+  }
+  
+  
+  .btn-order {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+  }
+  
+  .btn-order:hover,
+  .btn-order:focus,
+  .btn-order:active {
+  color: #fff;
+  background-color: var(--bs-teal);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+  
+  .redressed {
+  font-family: 'Redressed', cursive;
+  }
+  
+  .merriweather {
+  font-family: 'Merriweather', serif;
+  }
+  
+  .cc-navbar {
+  background-color: #ed7b0a5e;
+  font-family: 'Merriweather', serif;
+  box-shadow: 1px 1px 3px rgba(255, 94, 0, 0.54);
+  z-index: 99;
+  }
+  
+  .cc-navbar .nav-link {
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+  }
+  
+  .cc-navbar .nav-link:hover {
+  padding-bottom: 20px;
+  border-bottom-color: var(--bs-teal);
+  }
+  
+  
+  
+  
+  
+  
+  .btn-order {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+  }
+  
+  .btn-order:hover,
+  .btn-order:focus,
+  .btn-order:active {
+  color: #fff;
+  background-color: var(--bs-teal);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ========= banner styling ========= */
+  .banner {
+      padding: 12em 2em 8em 2em;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 75%, rgba(255, 255, 255, 0.4)), ;
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      text-align: center;
+      border-top: 0.5rem solid #ffa400;
+    }
+    
+    .banner.single-banner {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.534) 75%, rgba(255, 255, 255, 0.801)), url(../Images/ape.png) center no-repeat;
+      background-size: cover;
+      height: 200px;
+    }
+    .banner.single-banner .b-title {
+      margin-top: -5rem;
+      margin-bottom: 0;
+    }
+    
+    .banner-wrapper {
+      width: 70%;
+      margin-top: -2.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 1.5rem;
+      text-shadow: 1px 1px 5px rgb(5, 255, 255);
+      /* ======== end banner styling ======= */
+    }
+    .banner-wrapper .page-link a {
+      padding: .5rem 0;
+      margin-left: 1rem;
+      color: #eaf6ff;
+      transition: .25s ease-in;
+    }
+    .banner-wrapper .page-link a:hover {
+      color: #ffa400;
+    }
+    .banner-wrapper p {
+      color: #fff;
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-bottom: 2rem;
+    }
+    @media (max-width: 992px) {
+      .banner-wrapper {
+        width: 90%;
+      }
+      .banner-wrapper p {
+        font-size: 1.1rem;
+      }
+    }
+    

@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+font-family: 'Poppins';
+background-color: rgba(169, 52, 36, 0.507);
+
+}
+
+
+/*STYLE HAUT DE PAGE*/
+
+.hautdepage{
+width: 1350px;
+height: 55px;
+
+}
+
+/*LOGO*/
+
+.logo{
+    position: absolute;
+    top: 40px;
+    width: 50px;
+    height: 30px;
+    margin-top: 00px;
+}
+
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+.navbar a{ 
+    
+    color: black;
+}
+
+
+
+.navbar .nav-links ul  {
+    display: flex;
+    
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+ 
+}
+
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+@media screen and (max-width: 1050px){
+    .logo{
+        position: absolute;
+        top: 40px;
+        left: 30px;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar .menu-hamburger{
+       
+        display: block;
+    }
+    .nav-links{
+        
+        top: 0;
+        position: absolute;
+        
+        backdrop-filter: blur(8px);
+        width:100% ;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        
+        transition: all 0.5s ease;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li {
+        margin: 25px 0;
+        font-size: 1.2em;
+        
+    }
+    
+}
+
+
+
+
+/*Bouton*/
+button.btn1 {
+    padding:0px 20px ;
+    /*font-size: 1.2rem;*/
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 1px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: border-color .3s;
+    
+
+}
+
+button.btn {
+
+
+
+    padding:0px 20px ;
+
+    /*font-size: 1.2rem;*/
+    font-weight: bold;
+    font-style: italic;
+    
+    margin-top: 1px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: border-color .3s;
+    
+
+}
+
+button.btn1:hover {
+    border-color: rgba(204, 41, 41, 0.699);
+
+}
+button.btn:hover {
+    border-color: rgba(11, 221, 4, 0.808);
+}
+
+
+.news{
+    background-color: rgba(169, 52, 36, 0.288);
+    height: 4vh;
+    width:auto ;
+}
+.clignote {
+    color:rgb(255, 255, 255);
+    animation: clignote 5s linear infinite;
+  }
+  @keyframes clignote {  
+    20% { opacity: 0; }
+  }
+  
+.clignote{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vh;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
